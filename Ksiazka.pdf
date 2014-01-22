@@ -1,0 +1,64 @@
+\documentclass[a4paper]{article}
+
+\usepackage{polski}
+\usepackage[cp1250]{inputenc}
+\begin{document}
+\par 94 \hspace{8em}II.Przekształcenia liniowe\\[0.25cm]
+
+
+     \par Każdemu przekształceniu liniowemu A odpowiada w przesteni euklidesowej forma dwuliniowa A(x;y) określona wzorem \par \begin{center} $A(x;y)\equiv A(x,y).$\end{center}
+\par Rzeczywiście, funkcja $A(x;y)\equiv A(x,y).$ spełnia warunki charakteryzujące formę dwuliniową. Mamy:\newline
+
+\par 1^{o}\hspace{1em} $(A(x_{1}+x_{2}),y)=(Ax_{1}_+Ax_{2},y)=(Ax_{1},y)+(Ax_{2},y),$\\\newline
+\par \hspace {4em} $(A\lambda x,y)=(\lambda Ax,y)=\lambda (Ax,y),$\\\newline
+\par 2^{o}\hspace{1em} $(x,A(y_{1}+y_{2}))=(x,Ay_{1}+Ay_{2})=(x,Ay_{1})+(x,Ay_{2}),$\\\newline
+\par \hspace{4em} $(x,A\mu y)=(x,\mu Ay)=\mu (x,Ay).$\\\newline
+\par Wykażemy, że przekstałcenie A jest wyznaczone przed odpowiednią formę dwuliniową A(x;y) w sposób jednoznaczny.
+\par Przypuśćmy,że
+\par \begin{center}$A(x;y)=(Ax,y)$\end{center}\\ oraz
+\par \begin{center}$A(x;y)=(Bx,y).$\end{center}\\ Wówczas
+\par \begin{center}$(Ax,y)\equiv (Bx,y).$\end{center}\\ tj.
+\par \begin{center}$(Ax-Bx,y)\equiv 0$\end{center}\\
+dla każdego wektora y;ale to oznacza, że Ax-B=0. A zatem Ax=Bx dla każdego x, tj. A=B. Jednoznaczność została dowiedzona.
+\par Jest także i odwrotnie:
+\par Niech R bedzie przestrzenią euklidesową zespoloną i niech A(x;y) będzie formą dwuliniową w tej przestrzeni. Wybierzemy w R jakąkolwiek unormowaną bazę ortogonalną $e_{1},e_{2},...e_{n}.$ Jeżeli
+\ \begin{center} \hspace{6em} x=\zeta_{1} e_{1}+\zeta_{2} e_{2}+...+\zeta_{n} e_{n}\hspace{1em} i\hspace{1em}    y=\eta_{1} e_{1}+\eta_{2} e_{2}+...+\eta_{n} e_{n},\end{center} \\\newline
+to A(x;y) można zapisać w postaci\\[0.25cm]
+(1)\hspace{5em} $A(x;y)=a_{11}\zeta_{1}\overline\eta_{1}+a_{12}\zeta_{1}\overrline\eta_{2}+...+a_{1n}\zeta_{1}\overline\eta_{n}+$
+\par \begin{center}$+a_{21}\zeta_{2}\overline\eta_{1}+a_{22}\zeta_{2}\overline\eta_{2}+...+a_{2n}\zeta_{2}\overline\eta_{n}+$ \end{center}
+\par \begin{center} ......................................................... \end{center}
+\par \begin{center} $+a_{n1}\zeta_{n}\overline\eta_{1}+a_{n2}\zeta_{n}\overline\eta_{2}+...+a_{nn}\zeta_{n}\overline\eta_{n}.$ \end{center}
+\par Postaramy się przedstawić to wyrażenie w postaci pewnego iloczynu skalarnego.W tym celu przepiszmy je w sposób następujący:\\\newline
+\par \hspace{5em} \S 11.Przekształcenia liniowe sprzężone z danymi \hspace{6em}95 \\[0.25cm]
+\par \hspace{6em} $A(x;y)=(a_{11}\zeta_{1}+a_{21}\zeta_{2}+...+a_{n1}\zeta_{n})\overline\eta_{1}+$
+\par \begin{center} $+(a_{12}\zeta_{1}+a_{22}\zeta_{2}+...+a_{n2}\zeta_{n})\overline\eta_{2}+$ \end{center}
+\par \begin{center} ......................................................... \end{center}
+\par \begin{center} $+(a_{1n}\zeta_{1}+a_{2n}\zeta_{2}+...+a_{nn})\overline\eta_{n}.$\end{center}\\\newline
+Wprowadzmy wektor z o współrzędnych
+\par \begin{center} $\zeta_{1}=a_{11}\zeta_{1}+a_{21}\zeta_{2}+...+a_{n1}\zeta_{n},$ \end{center}
+\par \begin{center} $\zeta_{2}-a_{12}\zeta_{1}+a_{22}\zeta_{2}+...+a_{n2}\zeta_{n},$ \end{center}
+\par \begin{center} ......................................................... \end{center}
+\par \begin{center} $\zeta_{n}=a_{1n}\zeta_{1}+a_{2n}\zeta_{2}+...+a_{nn}\zeta_{n}.$ \end{center} \\\newline
+Wektor z otrzymuje sie z wektora \textsl{x}  przez przeształcenie liniowe z macierzą transponowaną względem macierzy $[a_{ik}]$ formy dwuliniowej A(x;y). Przekształcenie to oznaczamy literą A, tj, przyjmiemy z=Ax. Otrzymujemy zatem
+\par \begin{center} $A(x;y)=\zeta_{1}\overline\eta_{1}+\zeta_{2}\overline\eta_{2}+...+\zeta_{n}\overline\eta_{n}=(z,y)=(Ax,y).$ \end{center}
+\par Tak więc każdej formie dwuliniowe A(x;y) w przestrzeni euklidesowej odpowiada takie przekształcenie liniowe A,że
+\par \begin{center} $A(x;y)=(Ax,y).$ \end{center}
+\par Dowiedliśmy wiec następującego twierdzenia:
+\par {\sc Twierdzenie {\it 1.Wzór}} \\\newline
+(2)\hspace{5em} $A(x;y)=(Ax,y)$ \\\newline
+{\it ustala w przestrzeni euklidesowej wzajemnie jednoznaczną odpowiedniość pomiędzy formami dwuliniowymi o przekształceniu liniowym.}
+\par Z jednoznaczności odpowiedniości ustalonej przez wzór (2) wynika, że odpowiedniość ta nie zależy od wyboru bazy.
+\par Związek między formami dwuliniowymi a przekształceniami liniowymi można ustalić także w inny sposób.~A mianowiscie każdą formę dwuliniową można przedstawić także w postaci
+\par \begin{center} $A(x;y)=(x,A^*).$ \end{center}
+\par W tym celu we wzorze (1)\\\newline
+\par \hspace{3em} $A(x;y)=a_{11}\zeta_{1}\overline\eta_{1}+a_{12}\zeta_{1}\overline\eta_{2}+...+a_{1n}\zeta_{1}\overline\eta_{n}+$
+\par \begin{center}$+a_{21}\zeta_{2}\overline\eta_{1}+a_{22}\zeta_{2}\overline\eta_{2}+...+a_{2n}\zeta_{2}\overline\eta_{n}+$ \end{center}
+\par \begin{center} ......................................................... \end{center}
+\par \begin{center} $+a_{n1}\zeta_{n}\overline\eta_{1}+a_{n2}\zeta_{n}\overline\eta_{2}+...+a_{nn}\zeta_{n}\overline\eta_{n}$ \end{center}
+
+\end{document}
+
+
+
+
+\end{document}
