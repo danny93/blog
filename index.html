@@ -30,22 +30,26 @@
  
        </header>
        <section>
-         <h3>
+         <h6>
  <a name="Witaj na moim blogu" class="anchor" href="#Witaj-na-moim-blogu"><span class="octicon octicon-link"></span></a>Witaj na moim blogu.</h3>
  
- <p> </p>
- 
- <pre><code>$ cd your_repo_root/repo_name
- $ git fetch origin
- $ git checkout gh-pages
- </code></pre>
- 
- <p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
- 
- <h3>
+ <h6>
  <a name="Skrypty" class="anchor" href="#Skrypty"><span class="octicon octicon-link"></span></a>Skrypty</h3>
   
- <p> if it remained markdown format.</p>
+ <p>1. Skrypt który zmienia nazwę dopisując sufiks w postaci _old</p>
+ <pre><code> #!/bin/bash
+
+ for nazwa in `ls`
+     do
+       echo "$0"
+       echo "$nazwa"
+       if [ $nazwa != `basename $0` ]
+       then
+       cp $nazwa $nazwa"_old"
+       fi
+     done
+ exit 0
+</code></pre>
  
  <h3>
  <a name="Tekst-Latex" class="anchor" href="#Tekst-Latex"><span class="octicon octicon-link"></span></a>Tekst Latex</h3>
