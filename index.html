@@ -35,6 +35,17 @@
  
  <h4>
  <a name="Skrypty" class="anchor" href="#Skrypty"><span class="octicon octicon-link"></span></a>Skrypty</h4>
+ 
+ <p>Skrypt liczący znaki.</p>
+ <pre><code>#!/bin/bash
+ l1=`cat $1 | wc-m`
+ l2=`cat $2 | wc-m`
+
+if[$l1 -gt $l2]
+echo "wiecej znakow ma plik $1"
+else
+echo "wiecej znakow ma plik $2"
+</code></pre>
   
  <p>1. Skrypt który zmienia nazwę dopisując sufiks w postaci _old</p>
  <pre><code> #!/bin/bash
