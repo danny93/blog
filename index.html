@@ -123,6 +123,26 @@ exit 0
   
 exit 0
 </code></pre>
+<p>4.Skrypt ktory wyznacza silnie z podanego parametru.</p>
+<pre><code>#!/bin/bash
+
+
+   i=1;
+   wynik=1
+
+   while (( i<=$1)); 
+   
+  do
+   wynik=$wynik*$i
+   let "i++"
+   done
+   echo $wynik 
+    
+ done
+
+exit 0        
+</code></pre>
+
 
 
  <h3>
