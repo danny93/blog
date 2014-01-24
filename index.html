@@ -87,28 +87,8 @@ exit 0
 
 exit 0
 </code></pre>
-<p>4. Skrypt który ma na celu sprawdzenie czy podany zostal jeden warunek , jeżeli tak to czy on jest katalogiem lub plikiem.</p>
-<pre><code>#!/bin/bash
 
-
- echo "Czy został podany jeden parametr?"
- 
- if [ $# -eq 1 ]; 
-     then
-    if [ -d $1 ];
-    then
-      echo "$1 to katalog"
-    elif [ -f $1 ];
-    then
-      echo "$1 to plik"
-    fi
- else 
-    echo "Niepoprawna ilość parametrów"
- fi
- 
-exit 0
-</code></pre>
-<p>5. Skrypt łączący w jedną całość pliki *.txt w bieżącym katalogu.</p>
+<p>4. Skrypt łączący w jedną całość pliki *.txt w bieżącym katalogu.</p>
 <pre><code> #!/bin/bash
 
 
@@ -119,7 +99,7 @@ exit 0
 
 exit 0
 </code></pre>
-<p>6. Skrypt pyta o hasło i sprawdza czy jest poprawne	. W tym skrypcie zastosowana jest funkcja warunkowa "if".</p>
+<p>5. Skrypt pyta o hasło i sprawdza czy jest poprawne	. W tym skrypcie zastosowana jest funkcja warunkowa "if".</p>
 <pre><code>#!/bin/bash 
 
 
@@ -136,7 +116,7 @@ exit 0
   
 exit 0
 </code></pre>
-<p>7.Skrypt ktory wyznacza silnie z podanego parametru.</p>
+<p>6.Skrypt ktory wyznacza silnie z podanego parametru.</p>
 <pre><code>#!/bin/bash
 
 
